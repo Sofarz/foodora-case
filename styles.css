@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 90%;
+  width: 70%;
   font-family: "Bebas Neue", cursive;
   font-size: 16px;
   margin: 0 auto;
@@ -56,14 +56,15 @@ body {
 .bottom-header-container {
   width: 100%;
   height: 160px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: rgb(40, 42, 42);
 }
 
 .bottom-header-layout {
-  width: 90%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .bottom-header-left-content {
@@ -77,11 +78,11 @@ body {
 .burgerlove-logo {
   width: 120px;
   height: auto;
-  margin-left: 150px;
+  /* margin-left: 150px; */
 }
 
 .bottom-header-left-text {
-  padding-left: 150px;
+  /* padding-left: 150px; */
   font-family: "Lato", sans-serif;
 }
 
@@ -149,18 +150,155 @@ body {
 
 /* STYLING SECTION WITH BACKGROUND IMAGE AND MENU */
 
-.restaurant-content-section {
+.background-container {
   background-image: url(../foodora-case/assets/burgerlove-background.jpg);
-  height: 600px;
+  height: 1000px;
+  width: 100%;
+}
+
+.background-menu-content {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.order-online-button {
+  background-color: rgb(115, 32, 35);
+  color: rgb(250, 247, 248);
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  padding: 8px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.order-online-button:hover {
+  transform: scale(1.1);
+}
+
+.order-online-style {
+  margin: 0;
+  padding: 6px 20px;
+  border: 1px solid rgb(250, 247, 248);
+}
+
+.hide-order-online-btn {
+  display: none;
 }
 
 .burger-menu {
+  display: none;
   background-color: rgb(115, 32, 35);
-  color: white;
+  padding: 3px;
+  width: 100%;
+  height: fit-content;
+}
+
+.burger-menu-selected {
+  display: block;
+}
+
+.burger-menu-innercontent {
+  border: 1px solid rgb(250, 247, 248);
+  margin: 10px;
+  padding: 30px;
+}
+
+.close-menu-click {
+  color: rgb(250, 247, 248);
+  font-size: 20px;
+  text-align: right;
+}
+
+.close-menu-click:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.close-menu {
+  display: none;
+}
+
+.burger-menu-layout {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.burger-menu-heading-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-side-line {
+  background-color: rgb(250, 247, 248);
+  width: 140px;
+  height: 1px;
+  margin: 10px 30px;
+}
+
+.burger-menu-heading {
+  color: rgb(250, 247, 248);
+  font-family: "Bebas Neue", cursive;
+  font-size: 100px;
+  letter-spacing: 4px;
+  margin: 20px 0;
+}
+
+.burger-menu-dishes-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.burger-menu-dish-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.dish-img {
+  background-color: rgb(40, 42, 42);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.dish-description-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.dish-heading {
+  color: rgb(250, 247, 248);
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.dish-description {
+  color: rgb(250, 247, 248);
+  margin-top: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.dish-price {
+  color: rgb(250, 247, 248);
   font-family: "Bebas Neue", cursive;
   font-size: 24px;
-  margin: 0 auto;
-  padding: 8px;
+  font-weight: bold;
 }
 
 /* STYLING THE FOOTER  */
@@ -170,7 +308,7 @@ body {
 }
 
 .footer-container {
-  width: 90%;
+  width: 70%;
   height: 130px;
   display: flex;
   justify-content: space-between;
