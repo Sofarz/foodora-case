@@ -24,6 +24,7 @@ body {
   width: 90%;
   font-family: "Bebas Neue", cursive;
   font-size: 16px;
+  margin: 0 auto;
 }
 
 .red-dot {
@@ -39,6 +40,7 @@ body {
   display: flex;
   align-items: center;
   color: rgb(115, 32, 35);
+  letter-spacing: 2px;
 }
 
 .top-header-text-strong {
@@ -159,4 +161,75 @@ body {
   font-size: 24px;
   margin: 0 auto;
   padding: 8px;
+}
+
+/* STYLING THE FOOTER  */
+
+.footer {
+  width: 100%;
+}
+
+.footer-container {
+  width: 90%;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: rgb(115, 32, 35);
+}
+
+.footer-left-container {
+  display: flex;
+}
+
+.footer-headers {
+  font-family: "Bebas Neue", cursive;
+  font-size: 16px;
+  margin-bottom: 3px;
+  letter-spacing: 2px;
+}
+
+.footer-visit-us-container {
+  margin-right: 50px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+}
+
+.footer-visit-us-text {
+  margin: 2px 0 2px 0;
+}
+
+.footer-phone-number {
+  text-decoration: none;
+  color: rgb(115, 32, 35);
+}
+
+.footer-hours-container {
+  width: 250px;
+}
+
+.footer-hours-container-content {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+}
+
+.footer-hours-text {
+  margin: 2px 0 2px 0;
+}
+
+.footer-hours-text-strong {
+  font-weight: bold;
+  margin: 2px 0 2px 0;
+}
+
+.footer-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-icon {
+  color: rgb(115, 32, 35);
+  margin-right: 10px;
 }
