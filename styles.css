@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
+
+/* FONT FOR HEADLINES 
+font-family: 'Bebas Neue', cursive; */
+
+/* FONT FOR TEXT 
+font-family: 'Lato', sans-serif; */
+body {
+  margin: 0;
+}
+
+/* Styling the header */
+.top-header-container {
+  width: 100%;
+}
+
+.top-header-content {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 16px;
+}
+
+.red-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(115, 32, 35);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.top-header-text {
+  display: flex;
+  align-items: center;
+  color: rgb(115, 32, 35);
+}
+
+.top-header-text-strong {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.top-header-text-line {
+  font-weight: 200;
+  padding-right: 5px;
+}
+
+.bottom-header-container {
+  width: 100%;
+  height: 160px;
+  margin: 0 auto;
+  background-color: rgb(40, 42, 42);
+}
+
+.bottom-header-layout {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-header-left-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  top: -30px;
+}
+
+.burgerlove-logo {
+  width: 120px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.bottom-header-left-text {
+  padding-left: 150px;
+  font-family: "Lato", sans-serif;
+}
+
+.bottom-header-middle-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.restaurang-online-icon {
+  width: 140px;
+  margin-bottom: 5px;
+}
+
+.bottom-header-right-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  font-family: "Lato", sans-serif;
+}
+
+.bottom-header-hours-text {
+  margin: 5px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  width: 220px;
+}
+
+.bottom-header-hours {
+  font-weight: bold;
+  padding-left: 30px;
+  font-family: "Lato", sans-serif;
+}
+
+.bottom-header-text {
+  width: 160px;
+  font-weight: 300;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.bottom-header-right-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.shopping-cart {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.login-register-links {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding-right: 30px;
+  font-family: "Lato", sans-serif;
+}
+
+/* STYLING SECTION WITH BACKGROUND IMAGE AND MENU */
+
+.restaurant-content-section {
+  background-image: url(../foodora-case/assets/burgerlove-background.jpg);
+  height: 600px;
+}
+
+.burger-menu {
+  background-color: rgb(115, 32, 35);
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 8px;
+}
