@@ -65,7 +65,7 @@ body {
 .bottom-header-left-content {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: rgb(250, 247, 248);
   position: relative;
   top: -30px;
 }
@@ -83,7 +83,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  color: white;
+  color: rgb(250, 247, 248);
   margin-bottom: 25px;
 }
 
@@ -95,7 +95,7 @@ body {
 .bottom-header-right-content {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: rgb(250, 247, 248);
   justify-content: flex-end;
   margin-bottom: 25px;
   font-family: "Lato", sans-serif;
@@ -192,12 +192,10 @@ body {
   background-color: rgb(115, 32, 35);
   padding: 3px;
   width: 100%;
-  overflow: scroll;
 }
 
 .burger-menu-selected {
   display: block;
-  height: 500px;
   margin-top: 50px;
 }
 
